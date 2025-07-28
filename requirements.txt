@@ -1,0 +1,21 @@
+# Core Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Dashboard Framework
+streamlit>=1.40.0
+
+# Database Connectivity
+psycopg2-binary>=2.9.0
+sqlalchemy>=2.0.0
+
+# Environment Management
+python-dotenv>=1.0.0
+
+# Visualization
+plotly>=5.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+requests>=2.31.0

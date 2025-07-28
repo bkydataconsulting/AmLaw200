@@ -1,0 +1,43 @@
+# Environment and secrets
+.env
+.env.local
+.env.production
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Database files (if any local SQLite)
+*.db
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp 
