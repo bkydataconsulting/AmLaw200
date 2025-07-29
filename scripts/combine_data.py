@@ -123,14 +123,15 @@ combined_df = pd.concat(all_dfs, ignore_index=True)
 # Clean up column names (lowercase, replace spaces with underscores)
 combined_df.columns = combined_df.columns.str.lower().str.replace(" ", "_")
 
-# Save the combined file
-combined_df.to_csv("combined_amlaw.csv", index=False)
+# Save the combined file in the AmLaw Yearly Data folder
+output_path = os.path.join(folder, "combined_amlaw.csv")
+combined_df.to_csv(output_path, index=False)
 
 print(f"\n🎉 Success!")
 print(f"  - Combined {len(all_dfs)} files")
 print(f"  - Total rows: {len(combined_df)}")
 print(f"  - Columns: {len(combined_df.columns)}")
-print(f"  - Saved as: combined_amlaw.csv")
+print(f"  - Saved as: {output_path}")
 
 # Show a preview
 print(f"\n📋 Preview of combined data:")
