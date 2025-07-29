@@ -40,4 +40,8 @@ Thumbs.db
 
 # Temporary files
 *.tmp
-*.temp 
+*.temp
+
+# Data files - CSV files containing sensitive law firm data
+*.csv
+AmLaw Yearly Data/ 
